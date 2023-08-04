@@ -1,3 +1,7 @@
+<script>
+	import arcfiction from "$lib/images/arcfiction.png"
+ </script>
+
 <section
 	id="projects"
 	class="pb-10 flex flex-col gap-5 m-auto will-animate min-h-[100vh] w-[80%] justify-center mb-40 md:mb-0"
@@ -54,7 +58,7 @@
 			<img
 				class="w-full h-full object-cover"
 				loading="lazy"
-				src="/lib/images/arcfiction.webp"
+				src={arcfiction}
 				alt="ARCFiction demo preview."
 			/>
 		</figure>
