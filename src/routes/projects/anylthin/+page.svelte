@@ -37,7 +37,7 @@
 			<img
 				class="w-full h-full"
 				loading="lazy"
-				src={`../../../src/lib/images/heroselection.webp`}
+				src="../../../public/images/heroselection.webp"
 				alt="Forest of An Ylthin battle."
 			/>
 		</figure>
