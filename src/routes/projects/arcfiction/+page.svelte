@@ -43,7 +43,7 @@
 			<img
 				class="object-cover w-full h-full object-top sm:object-left"
 				loading="lazy"
-				src="../../../lib/images/arcfictionmedia.webp"
+				src="/lib/images/arcfictionmedia.webp"
 				alt="Media preview of Last Of Us."
 			/>
 		</figure>
@@ -54,7 +54,7 @@
 			<img
 				class="w-full h-full object-cover"
 				loading="lazy"
-				src="../../../lib/images/arcfiction.webp"
+				src="/lib/images/arcfiction.webp"
 				alt="ARCFiction demo preview."
 			/>
 		</figure>
