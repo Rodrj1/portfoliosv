@@ -1,4 +1,9 @@
 <script>
+	import searcher from '$lib/images/searcher.webp';
+	import anylthin from '$lib/images/anylthin.webp';
+	import arcfiction from '$lib/images/arcfiction.webp';
+	import cemetery from '$lib/images/cemetery.webp';
+
 	import { onMount } from 'svelte';
 	import { cognitiveDissabilityMode } from '../../store';
 	import { addBordersForCognitive } from '../components/AccessibilityMenu/cognitiveDissabilityMode';
@@ -29,7 +34,7 @@
 			<a href="/projects/anylthin">
 				<img
 					class="w-full h-full object-cover hover:scale-110 transition-transform cursor-pointer grayscale-[0.5] hover:grayscale-0"
-					src="src//lib/images/anylthin.webp"
+					src={anylthin}
 					alt="An Ylthin"
 				/>
 			</a>
@@ -41,7 +46,7 @@
 			<a href="/projects/arcfiction">
 				<img
 					class="w-full h-full object-cover hover:scale-110 transition-transform cursor-pointer grayscale-[0.5] hover:grayscale-0"
-					src="src//lib/images/arcfiction.webp"
+					src={arcfiction}
 					alt="ARCFiction"
 				/>
 			</a>
@@ -53,7 +58,7 @@
 			<a href="/projects/cityofhithair">
 				<img
 					class="w-full h-full object-cover hover:scale-110 transition-transform cursor-pointer grayscale-[0.5] hover:grayscale-0"
-					src="src//lib/images/cemetery.webp"
+					src={cemetery}
 					alt="Cemetery City of Hithair"
 				/>
 			</a>
@@ -65,7 +70,7 @@
 			<a href="/projects/googleclone">
 				<img
 					class="w-full h-full object-cover hover:scale-110 transition-transform cursor-pointer grayscale-[0.5] hover:grayscale-0"
-					src="src//lib/images/searcher.webp"
+					src={searcher}
 					alt="Google Clone"
 				/></a
 			>

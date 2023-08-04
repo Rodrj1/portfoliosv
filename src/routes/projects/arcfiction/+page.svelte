@@ -1,15 +1,18 @@
 <script>
-	import arcfiction from "$lib/images/arcfiction.webp"
- </script>
+	import arcfictionmedia from '$lib/images/arcfictionmedia.webp';
+	import arcfiction from '$lib/images/arcfiction.webp';
+</script>
 
 <section
 	id="projects"
 	class="pb-10 flex flex-col gap-5 m-auto will-animate min-h-[100vh] w-[80%] justify-center mb-40 md:mb-0"
 >
-	<h2 class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center sm:text-left text-violet-500">
+	<h2
+		class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center sm:text-left text-violet-500"
+	>
 		02. ARCFiction
 	</h2>
-	
+
 	<div class="project-techs justify-center md:justify-start items-center">
 		<span class="tech">NextJS</span>
 		<span class="w-6 border-b-2 border-gray-700" />
@@ -25,10 +28,8 @@
 	</div>
 
 	<div class="flex gap-2 items-center justify-center md:justify-start">
-		<a
-			aria-label="To ARCFiction website"
-			href="https://arcfictionrem.vercel.app/"
-			target="_blank">Website</a
+		<a aria-label="To ARCFiction website" href="https://arcfictionrem.vercel.app/" target="_blank"
+			>Website</a
 		>
 
 		<span class="w-6 border-b-2 border-gray-700" />
@@ -47,7 +48,7 @@
 			<img
 				class="object-cover w-full h-full object-top sm:object-left"
 				loading="lazy"
-				src="/lib/images/arcfictionmedia.webp"
+				src={arcfictionmedia}
 				alt="Media preview of Last Of Us."
 			/>
 		</figure>

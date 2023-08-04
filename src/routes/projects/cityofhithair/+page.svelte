@@ -1,11 +1,23 @@
+<script>
+	import cemetery from '$lib/images/cemetery.webp';
+	import battlecity from '$lib/images/battlecity.webp';
+	import nicolai from '$lib/images/nicolai.jpg';
+	import magehero from '$lib/images/magehero.jpg';
+	import knighthero from '$lib/images/knighthero.jpg';
+	import knight from '$lib/images/knight.jpg';
+	import marion from '$lib/images/marion.jpg';
+</script>
+
 <section
 	id="projects"
 	class="pb-10 flex flex-col gap-5 m-auto will-animate min-h-[100vh] w-[80%] justify-center mb-40 md:mb-20"
 >
-	<h2 class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center sm:text-left text-violet-500">
+	<h2
+		class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center sm:text-left text-violet-500"
+	>
 		03. City Of Hithair
 	</h2>
-	
+
 	<div class="project-techs justify-center md:justify-start items-center">
 		<span class="tech">React</span>
 		<span class="w-6 border-b-2 border-gray-700" />
@@ -47,8 +59,8 @@
 
 			<p class="text-sm mb-4">
 				Hithair has turned to turmoil when a wanderer broke through the cemetery and down the
-				mausoleum. After his incursion beneath, sounds, screeches, and voices echoed
-				underground. Find the secret below the earth.
+				mausoleum. After his incursion beneath, sounds, screeches, and voices echoed underground.
+				Find the secret below the earth.
 			</p>
 
 			<ul class="project-list text-sm gap-3 flex flex-col">
@@ -64,7 +76,7 @@
 					<img
 						class="h-full w-full object-cover rounded-full p-2 border border-zinc-800"
 						loading="lazy"
-						src="../src/lib/images/nicolai.jpg"
+						src={nicolai}
 						alt="Hero Nicolai."
 					/>
 				</figure>
@@ -77,7 +89,7 @@
 			<img
 				class="h-full w-full rounded-full p-2 border border-zinc-800"
 				loading="lazy"
-				src="../src/lib/images/magehero.jpg"
+				src={magehero}
 				alt="Dark Mage Hero."
 			/>
 		</figure>
@@ -88,7 +100,7 @@
 			<img
 				class="h-full w-full rounded-full p-2 border border-zinc-800"
 				loading="lazy"
-				src="../src/lib/images/knighthero.jpg"
+				src={knighthero}
 				alt="Knight Hero."
 			/>
 		</figure>
@@ -99,7 +111,7 @@
 			<img
 				class="h-full w-full rounded-full p-2 border border-zinc-800"
 				loading="lazy"
-				src="../src/lib/images/knight.jpg"
+				src={knight}
 				alt="NPC Knight."
 			/>
 		</figure>
@@ -110,7 +122,7 @@
 			<img
 				class="h-full w-full rounded-full p-2 border border-zinc-800"
 				loading="lazy"
-				src="../src/lib/images/marion.jpg"
+				src={marion}
 				alt="NPC Marion."
 			/>
 		</figure>
@@ -121,7 +133,7 @@
 			<img
 				class="w-full h-full object-cover object-top"
 				loading="lazy"
-				src="../src/lib/images/cemetery.webp"
+				src={cemetery}
 				alt="Cemetery level."
 			/>
 		</figure>
@@ -132,7 +144,7 @@
 			<img
 				class="w-full h-full object-cover object-top"
 				loading="lazy"
-				src="../src/lib/images/battlecity.webp"
+				src={battlecity}
 				alt="City of Hithair battle preview."
 			/>
 		</figure>

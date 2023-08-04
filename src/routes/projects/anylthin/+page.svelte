@@ -1,3 +1,10 @@
+<script>
+	import map from '$lib/images/map.webp';
+	import elisith from '$lib/images/elisith.jpg';
+	import heroselection from '$lib/images/heroselection.webp';
+	import anylthin from '$lib/images/anylthin.webp';
+</script>
+
 <section
 	id="projects"
 	class="pb-10 flex flex-col gap-5 m-auto will-animate min-h-[100vh] w-[80%] justify-center mb-40 md:mb-20"
@@ -37,7 +44,7 @@
 			<img
 				class="w-full h-full"
 				loading="lazy"
-				src="../../../public/images/heroselection.webp"
+				src={heroselection}
 				alt="Forest of An Ylthin battle."
 			/>
 		</figure>
@@ -48,7 +55,7 @@
 			<img
 				class="object-cover w-full h-full"
 				loading="lazy"
-				src="../../../src/lib/images/anylthin.webp"
+				src={anylthin}
 				alt="Forest of An Ylthin battle preview."
 			/>
 		</figure>
@@ -56,12 +63,7 @@
 		<figure
 			class="p-1 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-lg col-start-1 col-end-2 md:col-start-1 md:col-end-4 md:row-start-2 md:row-end-3 h-auto w-full border border-zinc-800"
 		>
-			<img
-				class="w-full h-full"
-				loading="lazy"
-				src="../../../src/lib/images/map.webp"
-				alt="Forest of An Ylthin map."
-			/>
+			<img class="w-full h-full" loading="lazy" src={map} alt="Forest of An Ylthin map." />
 		</figure>
 
 		<article
@@ -95,7 +97,7 @@
 					<img
 						class="object-cover h-full w-full rounded-full p-2 border border-zinc-800"
 						loading="lazy"
-						src="../../../src/lib/images/elisith.jpg"
+						src={elisith}
 						alt="Hero Elisith."
 					/>
 				</figure>

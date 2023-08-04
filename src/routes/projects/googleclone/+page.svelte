@@ -1,11 +1,19 @@
+<script>
+	import searcher from '$lib/images/searcher.webp';
+	import search from '$lib/images/search.webp';
+	import searchres from '$lib/images/searchres.webp';
+</script>
+
 <section
 	id="projects"
 	class="pb-10 mb-40 md:mb-20 flex flex-col gap-5 m-auto will-animate min-h-[100vh] w-[80%] justify-center"
 >
-	<h2 class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center sm:text-left text-violet-500">
+	<h2
+		class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center sm:text-left text-violet-500"
+	>
 		04. Google Clone
 	</h2>
-	
+
 	<div class="project-techs justify-center md:justify-start items-center">
 		<span class="tech">NextJS</span>
 		<span class="w-6 border-b-2 border-gray-700" />
@@ -34,7 +42,7 @@
 			<img
 				class="w-full h-full object-cover"
 				loading="lazy"
-				src="../src/lib/images/searcher.webp"
+				src={searcher}
 				alt="Google Clone preview."
 			/>
 		</figure>
@@ -45,7 +53,7 @@
 			<img
 				class="object-cover w-full h-full"
 				loading="lazy"
-				src="../src/lib/images/search.webp"
+				src={search}
 				alt="Google Clone search."
 			/>
 		</figure>
@@ -56,7 +64,7 @@
 			<img
 				class="w-full h-full object-cover"
 				loading="lazy"
-				src="../src/lib/images/searchres.webp"
+				src={searchres}
 				alt="Google Clone search."
 			/>
 		</figure>
