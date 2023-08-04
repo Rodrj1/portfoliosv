@@ -37,7 +37,7 @@
 			<img
 				class="w-full h-full"
 				loading="lazy"
-				src={`../src/lib/images/heroselection.webp`}
+				src={`../../../src/lib/images/heroselection.webp`}
 				alt="Forest of An Ylthin battle."
 			/>
 		</figure>
@@ -48,7 +48,7 @@
 			<img
 				class="object-cover w-full h-full"
 				loading="lazy"
-				src="../src/lib/images/anylthin.webp"
+				src="../../../src/lib/images/anylthin.webp"
 				alt="Forest of An Ylthin battle preview."
 			/>
 		</figure>
@@ -59,7 +59,7 @@
 			<img
 				class="w-full h-full"
 				loading="lazy"
-				src="../src/lib/images/map.webp"
+				src="../../../src/lib/images/map.webp"
 				alt="Forest of An Ylthin map."
 			/>
 		</figure>
@@ -95,7 +95,7 @@
 					<img
 						class="object-cover h-full w-full rounded-full p-2 border border-zinc-800"
 						loading="lazy"
-						src="../src/lib/images/elisith.jpg"
+						src="../../../src/lib/images/elisith.jpg"
 						alt="Hero Elisith."
 					/>
 				</figure>
