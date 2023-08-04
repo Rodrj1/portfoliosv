@@ -17,29 +17,27 @@
 		<ul
 			class="flex sm:flex-row justify-between sm:justify-end py-5 gap-1 sm:gap-4 xl:gap-40 list-none h-auto border-t border-gray-500 sm:border-transparent p-0 lg:min-h-[50px] backdrop-blur-sm w-[80%] m-auto"
 		>
-			<li>
-				<div class="sm:w-full justify-self-start">
-					<button on:click={handleAccessibilityMenu}>
-						<svg
-							id="accessibilityButton"
-							class="text-white hover:cursor-pointer"
-							xmlns="http://www.w3.org/2000/svg"
-							width="40"
-							height="40"
-							viewBox="0 0 24 24"
-						>
-							<circle cx="12" cy="7.5" r="1.5" fill="currentColor" />
-							<path
-								fill="currentColor"
-								d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8a8 8 0 0 1-8 8z"
-							/>
-							<path
-								fill="currentColor"
-								d="M16.5 10.5L16 9l-3 1h-2L8 9l-.5 1.5l3 1V13L9 17.25l1.5.75l1.25-3.5h.5L13.5 18l1.5-.75L13.5 13v-1.5l3-1z"
-							/>
-						</svg>
-					</button>
-				</div>
+			<li class="sm:w-full justify-self-start">
+				<button on:click={handleAccessibilityMenu}>
+					<svg
+						id="accessibilityButton"
+						class="text-white hover:cursor-pointer"
+						xmlns="http://www.w3.org/2000/svg"
+						width="40"
+						height="40"
+						viewBox="0 0 24 24"
+					>
+						<circle cx="12" cy="7.5" r="1.5" fill="currentColor" />
+						<path
+							fill="currentColor"
+							d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8a8 8 0 0 1-8 8z"
+						/>
+						<path
+							fill="currentColor"
+							d="M16.5 10.5L16 9l-3 1h-2L8 9l-.5 1.5l3 1V13L9 17.25l1.5.75l1.25-3.5h.5L13.5 18l1.5-.75L13.5 13v-1.5l3-1z"
+						/>
+					</svg>
+				</button>
 			</li>
 
 			<li class={`${path === '/' && '!border-b !border-sky-500'}`}>
