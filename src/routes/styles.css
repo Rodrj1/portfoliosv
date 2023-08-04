@@ -1,0 +1,95 @@
+@import '@fontsource/fira-mono';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color: rgb(39 39 42);
+}
+
+@layer base {
+  
+	h3 {
+	  @apply text-left text-fuchsia-400 font-normal;
+	}
+  
+	ul {
+	  @apply list-disc pl-4 text-left;
+	}
+  
+	p {
+	  @apply text-left;
+	}
+  
+	h2 {
+	  @apply text-violet-500 w-full h-[30px] text-lg text-left;
+	}
+  
+	a {
+	  @apply text-sm text-sky-500 font-normal hover:text-gray-500 transition-colors focus:text-gray-500 active:text-indigo-500;
+	}
+
+	.project-techs {
+		@apply flex flex-wrap -translate-x-2;
+	  }
+	
+	  .tech {
+		@apply h-auto rounded-md p-2 text-teal-500 text-sm font-normal;
+	  }
+	/*.will-animate {
+		@apply lg:transition-opacity lg:opacity-0 lg:ease-in lg:duration-[500ms]
+	  }
+	
+	  .is-animating {
+		@apply lg:opacity-100 lg:block;
+	  }*/
+	  
+	  .icon-holder {
+		@apply flex flex-col w-auto items-center justify-center
+	  }
+	
+	  .techIcon {
+		@apply bg-gray-700/30
+		h-[140px] w-[140px] rounded-lg
+	  }
+
+	  .cognitiveLink {
+	  @apply !border border-teal-500
+	}
+
+	.cognitiveHeader {
+		@apply !border border-sky-400
+	  }
+  }
+
+*, *::before, *::after {
+	box-sizing: border-box;
+  }
+
+  * {
+	margin: 0;
+  }
+
+  body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+  }
+
+  img, picture, video, canvas, svg {
+	display: block;
+	max-width: 100%;
+  }
+
+  input, button, textarea, select {
+	font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+	overflow-wrap: break-word;
+  }
+
+  #root, #__next {
+	isolation: isolate;
+  }
