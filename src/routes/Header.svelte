@@ -18,7 +18,7 @@
 			class="flex sm:flex-row justify-between sm:justify-end py-5 gap-1 sm:gap-4 xl:gap-40 list-none h-auto border-t border-gray-500 sm:border-transparent p-0 lg:min-h-[50px] backdrop-blur-sm w-[80%] m-auto"
 		>
 			<li class="sm:w-full justify-self-start">
-				<button on:click={handleAccessibilityMenu}>
+				<button aria-label="Open Accessibility Menu" on:click={handleAccessibilityMenu}>
 					<svg
 						id="accessibilityButton"
 						class="text-white hover:cursor-pointer"

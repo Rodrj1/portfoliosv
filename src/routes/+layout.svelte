@@ -29,9 +29,9 @@
 	{/if}
 
 	<footer class="w-[80%] absolute hidden md:block border-t border-t-gray-800 bottom-10 pt-3">
-		<h5 class="text-left text-slate-400">
+		<p class="text-left text-slate-400">
 			Powered by <span class="text-teal-500">Svelte</span> and
 			<span class="text-teal-500">TailwindCSS</span>
-		</h5>
+		</p>
 	</footer>
 </div>
