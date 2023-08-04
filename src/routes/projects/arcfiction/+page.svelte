@@ -1,5 +1,5 @@
 <script>
-	import arcfiction from "$lib/images/arcfiction.png"
+	import arcfiction from "$lib/images/arcfiction.webp"
  </script>
 
 <section
