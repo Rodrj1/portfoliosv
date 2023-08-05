@@ -3,9 +3,11 @@
 
 	import { ADHDMode, accessibilityMenuIsOpen } from '../store';
 
-	import Header from './Header.svelte';
-	import AccessibilityMenu from './components/AccessibilityMenu/AccessibilityMenu.svelte';
 	import { updatePosition } from './components/AccessibilityMenu/updatePositionADHDMode';
+
+	import Header from './Header.svelte';
+	
+	import AccessibilityMenu from './components/AccessibilityMenu/AccessibilityMenu.svelte';
 </script>
 
 <div
