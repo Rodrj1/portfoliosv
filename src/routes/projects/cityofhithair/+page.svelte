@@ -75,7 +75,6 @@
 				>
 					<img
 						class="h-full w-full object-cover rounded-full p-2 border border-zinc-800"
-						loading="lazy"
 						src={nicolai}
 						alt="Hero Nicolai."
 					/>
@@ -88,7 +87,6 @@
 		>
 			<img
 				class="h-full w-full rounded-full p-2 border border-zinc-800"
-				loading="lazy"
 				src={magehero}
 				alt="Dark Mage Hero."
 			/>
@@ -99,7 +97,6 @@
 		>
 			<img
 				class="h-full w-full rounded-full p-2 border border-zinc-800"
-				loading="lazy"
 				src={knighthero}
 				alt="Knight Hero."
 			/>
@@ -110,7 +107,6 @@
 		>
 			<img
 				class="h-full w-full rounded-full p-2 border border-zinc-800"
-				loading="lazy"
 				src={knight}
 				alt="NPC Knight."
 			/>
@@ -121,7 +117,6 @@
 		>
 			<img
 				class="h-full w-full rounded-full p-2 border border-zinc-800"
-				loading="lazy"
 				src={marion}
 				alt="NPC Marion."
 			/>

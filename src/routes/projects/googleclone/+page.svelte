@@ -41,7 +41,6 @@
 		>
 			<img
 				class="w-full h-full object-cover"
-				loading="lazy"
 				src={searcher}
 				alt="Google Clone preview."
 			/>
@@ -52,7 +51,6 @@
 		>
 			<img
 				class="object-cover w-full h-full"
-				loading="lazy"
 				src={search}
 				alt="Google Clone search."
 			/>
@@ -63,7 +61,6 @@
 		>
 			<img
 				class="w-full h-full object-cover"
-				loading="lazy"
 				src={searchres}
 				alt="Google Clone search."
 			/>

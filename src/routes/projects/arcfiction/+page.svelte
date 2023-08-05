@@ -47,7 +47,6 @@
 		>
 			<img
 				class="object-cover w-full h-full object-top sm:object-left"
-				loading="lazy"
 				src={arcfictionmedia}
 				alt="Media preview of Last Of Us."
 			/>
@@ -58,7 +57,6 @@
 		>
 			<img
 				class="w-full h-full object-cover"
-				loading="lazy"
 				src={arcfiction}
 				alt="ARCFiction demo preview."
 			/>
