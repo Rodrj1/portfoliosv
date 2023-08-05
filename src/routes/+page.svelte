@@ -12,8 +12,8 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>rodriccrz</title>
+	<meta name="description" content="Section: Main. My portfolio as a front-end developer. Rodrigo Agustin Cisterna Cruz." />
 </svelte:head>
 
 <section class="w-full will-animate duration-500">

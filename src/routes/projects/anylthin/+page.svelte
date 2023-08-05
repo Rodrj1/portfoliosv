@@ -41,12 +41,7 @@
 		<figure
 			class="p-1 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-lg col-start-1 col-end-2 md:col-start-1 md:col-end-4 md:row-start-1 md:row-end-2 h-auto w-full border border-zinc-800 bg-cover"
 		>
-			<img
-				class="w-full h-full"
-				loading="lazy"
-				src={heroselection}
-				alt="Forest of An Ylthin battle."
-			/>
+			<img class="w-full h-full" src={heroselection} alt="Forest of An Ylthin battle." />
 		</figure>
 
 		<figure
@@ -54,7 +49,6 @@
 		>
 			<img
 				class="object-cover w-full h-full"
-				loading="lazy"
 				src={anylthin}
 				alt="Forest of An Ylthin battle preview."
 			/>
@@ -63,7 +57,7 @@
 		<figure
 			class="p-1 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-lg col-start-1 col-end-2 md:col-start-1 md:col-end-4 md:row-start-2 md:row-end-3 h-auto w-full border border-zinc-800"
 		>
-			<img class="w-full h-full" loading="lazy" src={map} alt="Forest of An Ylthin map." />
+			<img class="w-full h-full" src={map} alt="Forest of An Ylthin map." />
 		</figure>
 
 		<article

@@ -8,6 +8,11 @@
 	});
 </script>
 
+<svelte:head>
+	<title>rodriccrz</title>
+	<meta name="description" content="Section: About. My portfolio as a front-end developer. Rodrigo Agustin Cisterna Cruz." />
+</svelte:head>
+
 <section class="w-full will-animate duration-500">
 	<div class="w-[80%] m-auto mt-36">
 		<h1

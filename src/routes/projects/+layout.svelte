@@ -2,6 +2,11 @@
 	import ProjectNavbar from './ProjectNavbar.svelte';
 </script>
 
+<svelte:head>
+	<title>rodriccrz</title>
+	<meta name="description" content="Section: Here projects are displayed. My portfolio as a front-end developer. Rodrigo Agustin Cisterna Cruz." />
+</svelte:head>
+
 <section class={`min-h-screen w-full m-auto mt-36 relative`}>
 	<h1
 		class={`text-2xl sm:text-3xl md:text-4xl lg:text-4xl w-[80%] m-auto text-center lg:text-left text-slate-400 border-b border-b-gray-800 mb-20`}
