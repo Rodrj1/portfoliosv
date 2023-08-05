@@ -10,7 +10,10 @@
 
 <svelte:head>
 	<title>rodriccrz</title>
-	<meta name="description" content="Section: About. My portfolio as a front-end developer. Rodrigo Agustin Cisterna Cruz." />
+	<meta
+		name="description"
+		content="Section: About. My portfolio as a front-end developer. Rodrigo Agustin Cisterna Cruz."
+	/>
 </svelte:head>
 
 <section class="w-full will-animate duration-500">
@@ -22,24 +25,9 @@
 		</h1>
 
 		<div class="flex flex-col gap-10">
-			<div class="flex flex-col gap-2">
-				<h2 class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left text-violet-500">
-					rodriccrz@gmail.com
-				</h2>
-				<div class="flex gap-2">
-					<a aria-label="To github profile" href="https://github.com/Rodrj1" target="_blank">
-						Github
-					</a>
-
-					<a
-						aria-label="To Linkedin profile"
-						href="https://www.linkedin.com/in/rodrigoagustinccrz/"
-						target="_blank"
-					>
-						Linkedin
-					</a>
-				</div>
-			</div>
+			<h2 class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left text-violet-500">
+				rodriccrz@gmail.com
+			</h2>
 
 			<div class="flex flex-col gap-5">
 				<div class="flex flex-col gap-2">

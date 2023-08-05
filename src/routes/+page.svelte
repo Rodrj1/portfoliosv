@@ -39,6 +39,28 @@
 				<li>SEO optimized sites</li>
 			</ul>
 
+			<div class="flex gap-2 items-center">
+				<a aria-label="To github profile" href="https://github.com/Rodrj1" target="_blank">
+					Github
+				</a>
+				<span class="w-6 border-b-2 border-gray-700" />
+				<a
+					aria-label="To Linkedin profile"
+					href="https://www.linkedin.com/in/rodrigoagustinccrz/"
+					target="_blank"
+				>
+					Linkedin
+				</a>
+				<span class="w-6 border-b-2 border-gray-700" />
+				<a
+					aria-label="To Resume PDF"
+					href="/resume"
+					target="_blank"
+				>
+					Resume
+				</a>
+			</div>
+
 			<div class="flex gap-5 mt-14">
 				<ReactIcon />
 
