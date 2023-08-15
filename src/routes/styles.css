@@ -94,16 +94,15 @@
   }
 
   .animWelcome {
-	animation: animate 1s alternate forwards;
+	animation: animate 1.5s alternate forwards;
 	animation-delay: 1.5s;
-
   }
 
   @keyframes animate {
 	0%{
-		opacity: 100;
+		opacity: 50;
 	}
-	100% {opacity: 0;}
+	100% {opacity: 0; z-index: -500000;}
   }
 
 
