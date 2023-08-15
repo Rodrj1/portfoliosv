@@ -19,7 +19,7 @@
 	<div
 		class="fixed h-[100vh] w-[100%] z-[500000000] bg-black flex justify-center items-center animWelcome"
 	>
-	<h1 class="text-3xl">Opening Portfolio</h1>
+	<h1 class="text-3xl animTitle">Opening Portfolio</h1>
 </div>
 	<Header />
 

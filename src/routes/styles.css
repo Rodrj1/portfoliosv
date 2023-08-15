@@ -95,15 +95,47 @@
 
   .animWelcome {
 	animation: animate 1.5s alternate forwards;
-	animation-delay: 1.5s;
+	animation-delay: .3s;
   }
 
   @keyframes animate {
 	0%{
 		opacity: 50;
 	}
-	100% {opacity: 0; z-index: -500000;}
+	
+	100% {
+		opacity: 0; 
+		z-index: 
+		-500000; 
+	}
   }
+
+  .animTitle {
+	transition-duration: 500ms;
+	position: relative;
+	overflow: hidden;
+	width: auto;
+  }
+
+  .animTitle::before {
+	content: "";
+	background-image: conic-gradient(#868cc2 20deg, transparent 120deg);
+	width: 500px;
+	height: 100%;
+	position: absolute;
+	animation: rotate 1.5s linear forwards
+  }
+
+  @keyframes rotate {
+	0% {
+		transform: translateX(-500px);
+	}
+
+	100% {
+		transform: translateX(300px);
+	}
+  }
+
 
 
 
