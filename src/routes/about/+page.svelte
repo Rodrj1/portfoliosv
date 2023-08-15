@@ -19,7 +19,7 @@
 <section class="w-full will-animate duration-500">
 	<div class="w-[80%] m-auto mt-36">
 		<h1
-			class="mb-20 text-2xl sm:text-3xl md:text-4xl lg:text-4xl w-full text-center lg:text-left text-slate-400 border-b border-b-gray-800"
+			class="mb-20 text-2xl sm:text-3xl md:text-4xl lg:text-4xl w-full text-center lg:text-left  border-b border-b-gray-800"
 		>
 			ABOUT.md
 		</h1>
@@ -33,7 +33,7 @@
 				<div class="flex flex-col gap-2">
 					<h3 class="text-green-400 text-base">Education</h3>
 
-					<ul class="text-base list-none p-0 text-slate-400">
+					<ul class="text-base list-none p-0 ">
 						<li>
 							Computer technician (2011 - 2017): E.E.S.T.N°5 Av. Juan B. Justo 4287, Mar del Plata.
 						</li>
@@ -44,7 +44,7 @@
 				<div class="flex flex-col gap-2">
 					<h3 class="text-green-400 text-base">Languages</h3>
 
-					<ul class="text-base list-none p-0 text-slate-400">
+					<ul class="text-base list-none p-0 ">
 						<li>Spanish</li>
 						<li>English</li>
 					</ul>
@@ -53,9 +53,9 @@
 				<div class="flex flex-col gap-2">
 					<h3 class="text-green-400 text-base">Technologies and tools used in my projects</h3>
 
-					<p class="text-base text-slate-400">Main: React | Typescript | TailwindCSS</p>
+					<p class="text-base ">Main: React | Typescript | TailwindCSS</p>
 
-					<p class="text-base text-slate-400">
+					<p class="text-base ">
 						Also used: Svelte | JS | Vanilla CSS | SASS | NextJS | Svelte | Redux | Zustand |
 						MongoDB | Prisma | Express | Github
 					</p>
@@ -64,7 +64,7 @@
 				<div class="flex flex-col gap-2 pb-40 sm:pb-0">
 					<h3 class="text-green-400 text-base">Extra information</h3>
 
-					<p class="text-base text-slate-400">
+					<p class="text-base ">
 						I finished as a Computer Technician, but did not do anything programming-related for
 						some years. I started again in 2022 and I am looking forward to learning new
 						technologies as time goes.

@@ -13,11 +13,11 @@
 	});
 </script>
 
-<section class="w-full will-animate duration-500 mb-40 md:mb-0">
-	<div class="flex flex-wrap gap-3 w-[80%] m-auto items-center justify-center lg:justify-between">
+<section class="w-full will-animate duration-500 mb-40 xl:mb-20">
+	<div class="flex flex-wrap gap-1 w-[80%] m-auto items-start justify-center lg:justify-between">
 		<div class="w-full flex flex-col gap-3">
 			<h2 class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left text-violet-500">
-				Top Projects
+				Explore
 			</h2>
 
 			<a
@@ -28,8 +28,20 @@
 			>
 		</div>
 
-		<figure
-			class="w-[450px] h-[330px] lg:w-full lg:h-[380px] xl:w-[450px] xl:h-[330px] border border-gray-800 rounded-md p-2 overflow-hidden transition-colors hover:border-red-500"
+		<picture
+			class="w-[450px] h-[330px] lg:w-full lg:h-[380px] xl:w-[450px] xl:h-[330px] border border-gray-800 rounded-md overflow-hidden transition-colors hover:border-red-500 hover:motion-safe:animate-pulse"
+		>
+			<a href="https://basicagencymock.netlify.app/" target="_blank">
+				<img
+					class="w-full h-full object-cover hover:scale-110 transition-transform cursor-pointer grayscale-[4] hover:grayscale-0"
+					src="https://cdn.sanity.io/images/8nn8fua5/production/0e11b9e81dbff0e91cdf326ac726a1b28233636f-870x582.jpg?w=720&fm=webp&q=65"
+					alt="The Webby Awards Logo"
+				/>
+			</a>
+		</picture>
+
+		<picture
+			class="w-[450px] h-[330px] lg:w-full lg:h-[380px] xl:w-[450px] xl:h-[330px] border border-gray-800 rounded-md p-2 overflow-hidden transition-colors hover:border-red-500 hover:motion-safe:animate-pulse"
 		>
 			<a href="/projects/anylthin">
 				<img
@@ -38,10 +50,10 @@
 					alt="An Ylthin"
 				/>
 			</a>
-		</figure>
+		</picture>
 
-		<figure
-			class="w-[450px] h-[330px] lg:w-full lg:h-[380px] xl:w-[450px] xl:h-[330px] border border-gray-800 rounded-md p-2 overflow-hidden transition-colors hover:border-red-500"
+		<picture
+			class="w-[450px] h-[330px] lg:w-full lg:h-[380px] xl:w-[450px] xl:h-[330px] border border-gray-800 rounded-md p-2 overflow-hidden transition-colors hover:border-red-500 hover:motion-safe:animate-pulse"
 		>
 			<a href="/projects/arcfiction">
 				<img
@@ -50,10 +62,10 @@
 					alt="ARCFiction"
 				/>
 			</a>
-		</figure>
+		</picture>
 
-		<figure
-			class="w-[450px] h-[330px] lg:w-full lg:h-[380px] xl:w-[450px] xl:h-[330px] border border-gray-800 rounded-md p-2 overflow-hidden transition-colors hover:border-red-500"
+		<picture
+			class="w-[450px] h-[330px] lg:w-full lg:h-[380px] xl:w-[450px] xl:h-[330px] border border-gray-800 rounded-md p-2 overflow-hidden transition-colors hover:border-red-500 hover:motion-safe:animate-pulse"
 		>
 			<a href="/projects/cityofhithair">
 				<img
@@ -62,10 +74,10 @@
 					alt="Cemetery City of Hithair"
 				/>
 			</a>
-		</figure>
+		</picture>
 
-		<figure
-			class="w-[450px] h-[330px] lg:w-full lg:h-[380px] xl:w-[450px] xl:h-[330px] border border-gray-800 rounded-md p-2 overflow-hidden transition-colors hover:border-red-500"
+		<picture
+			class="w-[450px] h-[330px] lg:w-full lg:h-[380px] xl:w-[450px] xl:h-[330px] border border-gray-800 rounded-md p-2 overflow-hidden transition-colors hover:border-red-500 hover:motion-safe:animate-pulse"
 		>
 			<a href="/projects/googleclone">
 				<img
@@ -74,6 +86,6 @@
 					alt="Google Clone"
 				/></a
 			>
-		</figure>
+		</picture>
 	</div>
 </section>

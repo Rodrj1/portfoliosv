@@ -19,7 +19,7 @@
 <section class="w-full will-animate duration-500">
 	<div class="w-[80%] m-auto mt-36">
 		<h1
-			class="mb-20 text-2xl sm:text-3xl md:text-4xl lg:text-4xl w-full text-center lg:text-left text-slate-400 border-b border-b-gray-800"
+			class="mb-20 text-2xl sm:text-3xl md:text-4xl lg:text-4xl w-full text-center lg:text-left  border-b border-b-gray-800"
 		>
 			HOME.md
 		</h1>
@@ -30,10 +30,10 @@
 					Rodrigo Agustin Cisterna-Cruz
 				</h2>
 
-				<h3 class="text-3xl text-slate-400 underline">Front-end developer</h3>
+				<h3 class="text-3xl underline text-slate-400">Front-end developer</h3>
 			</div>
 
-			<ul class="text-slate-400 text-lg">
+			<ul class=" text-lg">
 				<li>Responsive sites</li>
 				<li>Accessible sites</li>
 				<li>SEO optimized sites</li>

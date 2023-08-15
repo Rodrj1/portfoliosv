@@ -6,7 +6,6 @@
 
 :root {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	background-color: rgb(39 39 42);
 }
 
 @layer base {
@@ -93,3 +92,8 @@
   #root, #__next {
 	isolation: isolate;
   }
+
+
+
+
+
