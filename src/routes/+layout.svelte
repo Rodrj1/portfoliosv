@@ -10,16 +10,19 @@
 	import AccessibilityMenu from './components/AccessibilityMenu/AccessibilityMenu.svelte';
 </script>
 
-
-
 <div
 	on:mousemove={ADHDMode ? updatePosition : null}
 	id="status"
 	role="status"
-	class="flex w-[100%] mx-auto min-h-screen flex-col text-center justify-start items-center to-zinc-900 relative text-slate-400"
+	class="flex w-[100%] mx-auto min-h-screen flex-col text-center justify-start items-center bg-gradient-radial from-zinc-900 via-gray-800/20 to-zinc-900 relative text-slate-400"
 >
+	<div
+		class="fixed h-[100vh] w-[100%] z-[500000000] bg-black flex justify-center items-center animWelcome"
+	>
+	<h1 class="text-3xl">Opening Portfolio</h1>
+</div>
 	<Header />
-	
+
 	{#if $accessibilityMenuIsOpen}
 		<AccessibilityMenu />
 	{/if}

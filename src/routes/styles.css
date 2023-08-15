@@ -93,6 +93,19 @@
 	isolation: isolate;
   }
 
+  .animWelcome {
+	animation: animate 1s alternate forwards;
+	animation-delay: 1.5s;
+
+  }
+
+  @keyframes animate {
+	0%{
+		opacity: 100;
+	}
+	100% {opacity: 0;}
+  }
+
 
 
 
