@@ -20,14 +20,14 @@
 	role="status"
 	class="flex w-[100%] mx-auto min-h-screen flex-col text-center justify-start items-center bg-zinc-950 relative text-slate-400"
 >
-	<!--
+	
 <div
 		class="fixed h-[100vh] w-[100%] z-[500000000] bg-zinc-950 flex justify-center items-center animWelcome"
 	>
 		<h1 class="text-3xl animTitle">Opening Portfolio</h1>
 	</div>
 
-	-->
+
 
 	<Header />
 
