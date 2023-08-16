@@ -7,7 +7,7 @@
 	<title>rodriccrz</title>
 	<meta
 		name="description"
-		content="Section: Here projects are displayed. My portfolio as a front-end developer. Rodrigo Agustin Cisterna Cruz."
+		content="A display of the projects I made. Welcome to my portfolio. Rodrigo Agustin Cisterna Cruz. Front-end developer"
 	/>
 </svelte:head>
 
@@ -20,7 +20,7 @@
 
 	<h1
 		class={`hidden md:block text-2xl sm:text-3xl md:text-4xl lg:text-4xl w-[20%] fixed  left-[0%] top-[13%] text-right border-b border-b-slate-200 z-[100000000] text-slate-200
-		${$page.url.pathname !== '/projects' ? '!block' : "!hidden"}
+		${$page.url.pathname === '/projects' && 'invisible'}
 		`}
 	>
 		.0{$projectIndex}
