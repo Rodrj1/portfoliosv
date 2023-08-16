@@ -1,10 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import { cognitiveDissabilityMode } from '../store';
-	import { addBordersForCognitive } from './components/AccessibilityMenu/cognitiveDissabilityMode';
-	import ReactIcon from './components/icons/ReactIcon.svelte';
-	import TailwindIcon from './components/icons/TailwindIcon.svelte';
-	import TypescriptIcon from './components/icons/TypescriptIcon.svelte';
+	import { addBordersForCognitive } from './components/AccessibilityMenu/cognitiveDissabilityMode';;
 
 	onMount(() => {
 		if ($cognitiveDissabilityMode === true) addBordersForCognitive($cognitiveDissabilityMode);
@@ -13,33 +10,41 @@
 
 <svelte:head>
 	<title>rodriccrz</title>
-	<meta name="description" content="Section: Main. My portfolio as a front-end developer. Rodrigo Agustin Cisterna Cruz." />
+	<meta
+		name="description"
+		content="Section: Main. My portfolio as a front-end developer. Rodrigo Agustin Cisterna Cruz."
+	/>
 </svelte:head>
 
-<section class="w-full will-animate duration-500">
-	<div class="w-[80%] m-auto mt-36">
+<section class="w-full projectAnim">
+	<div class="w-[95%] m-auto mt-36 px-5 border-l border-slate-200 flex">
+		<!-- <h1
+			class="mb-20 text-2xl sm:text-3xl md:text-4xl lg:text-4xl w-full text-center lg:text-left  border-b border-b-gray-500"
+		>
+			HOME.md
+		</h1>-->
+
 		<h1
-			class="mb-20 text-2xl sm:text-3xl md:text-4xl lg:text-4xl w-full text-center lg:text-left  border-b border-b-gray-800"
+			class="mb-20 text-2xl sm:text-3xl md:text-4xl lg:text-4xl w-[40%] absolute right-[-10%] top-[50%] text-center lg:text-center border-b border-b-slate-200 rotate-90 text-slate-200"
 		>
 			HOME.md
 		</h1>
 
-		<div class="flex flex-col gap-10">
+		<div class="flex flex-col gap-10 justify-start items-start m-auto  w-max sm:w-[40%]">
 			<div>
-				<h2 class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left text-violet-500">
-					Rodrigo Agustin Cisterna-Cruz
+				<h2 class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left w-full text-slate-200">
+					Rodrigo Cisterna-Cruz
 				</h2>
 
-				<h3 class="text-3xl underline text-slate-400">Front-end developer</h3>
+				<h3 class="text-xl text-slate-300 text-left">Front-end developer</h3>
 			</div>
 
-			<ul class=" text-lg">
-				<li>Responsive sites</li>
-				<li>Accessible sites</li>
-				<li>SEO optimized sites</li>
+			<ul class="text-sm text-left w-full">
+				<li>RESPONSIVE SITES</li>
+				<li>ACCESSIBLE SITES</li>
 			</ul>
 
-			<div class="flex gap-2 items-center">
+			<div class="flex gap-2 items-center w-full">
 				<a aria-label="To github profile" href="https://github.com/Rodrj1" target="_blank">
 					Github
 				</a>
@@ -52,21 +57,7 @@
 					Linkedin
 				</a>
 				<span class="w-6 border-b-2 border-gray-700" />
-				<a
-					aria-label="To Resume PDF"
-					href="/resume"
-					target="_blank"
-				>
-					Resume
-				</a>
-			</div>
-
-			<div class="flex gap-5 mt-14">
-				<ReactIcon />
-
-				<TailwindIcon />
-
-				<TypescriptIcon />
+				<a aria-label="To Resume PDF" href="/resume" target="_blank"> Resume </a>
 			</div>
 		</div>
 	</div>

@@ -18,6 +18,10 @@ export default {
 				newpink: '#e251a8',
 				newwhite: '#d6d5d5',
 				regalBlue: '#243c5a'
+			},
+			screens: {
+				'base': '1048px',
+				'2xl': '1420px'
 			}
 		}
 	},

@@ -5,13 +5,21 @@
 
 
 :root {
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: 'Times New Roman', Times, serif;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
 @layer base {
-  
+	h1 {
+		@apply text-left tracking-widest;
+	  }
+
 	h3 {
-	  @apply text-left text-fuchsia-400 font-normal;
+	  @apply text-left tracking-widest;
 	}
   
 	ul {
@@ -23,11 +31,11 @@
 	}
   
 	h2 {
-	  @apply text-violet-500 w-full h-[30px] text-lg text-left;
+	  @apply text-left tracking-widest;
 	}
   
 	a {
-	  @apply text-sm text-sky-500 font-normal hover:text-gray-500 transition-colors focus:text-gray-500 active:text-indigo-500;
+	  @apply text-sm text-slate-200 tracking-widest hover:text-gray-500 transition-colors focus:text-gray-500 active:text-indigo-500;
 	}
 
 	.project-techs {
@@ -37,13 +45,6 @@
 	  .tech {
 		@apply h-auto rounded-md p-2 text-teal-500 text-sm font-normal;
 	  }
-	/*.will-animate {
-		@apply lg:transition-opacity lg:opacity-0 lg:ease-in lg:duration-[500ms]
-	  }
-	
-	  .is-animating {
-		@apply lg:opacity-100 lg:block;
-	  }*/
 	  
 	  .icon-holder {
 		@apply flex flex-col w-auto items-center justify-center
@@ -123,7 +124,7 @@
 	width: 500px;
 	height: 100%;
 	position: absolute;
-	animation: rotate 1.5s linear forwards
+	animation: rotate 1.5s linear forwards;
   }
 
   @keyframes rotate {
@@ -133,6 +134,22 @@
 
 	100% {
 		transform: translateX(300px);
+	}
+  }
+
+  .projectAnim {
+	animation: display .7s linear
+  }
+
+  @keyframes display {
+	0% {
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+
+	100% {
+		opacity: 100;
+		transform: translateY(0%);
 	}
   }
 

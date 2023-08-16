@@ -1,6 +1,7 @@
 <script>
 	import cemetery from '$lib/images/cemetery.webp';
 	import battlecity from '$lib/images/battlecity.webp';
+	import cityhithair from '$lib/images/cityhithair.webp';
 	import nicolai from '$lib/images/nicolai.jpg';
 	import magehero from '$lib/images/magehero.jpg';
 	import knighthero from '$lib/images/knighthero.jpg';
@@ -9,139 +10,128 @@
 </script>
 
 <section
-	id="projects"
-	class="pb-10 flex flex-col gap-5 m-auto will-animate min-h-[100vh] w-[80%] justify-center mb-40 md:mb-20"
+	class="flex flex-col base:flex-row gap-5 m-auto h-auto lg:h-[70vh] w-[90%] md:w-[50%] justify-center projectAnim mb-48 sm:mb-20 relative"
 >
-	<h2
-		class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center sm:text-left text-violet-500"
-	>
-		03. City Of Hithair
-	</h2>
-
-	<div class="project-techs justify-center md:justify-start items-center">
-		<span class="tech">React</span>
-		<span class="w-6 border-b-2 border-gray-700" />
-		<span class="tech">Typescript</span>
-		<span class="w-6 border-b-2 border-gray-700" />
-		<span class="tech">Zustand</span>
-		<span class="w-6 border-b-2 border-gray-700" />
-		<span class="tech">SASS</span>
-	</div>
-
-	<div class="flex gap-2 items-center justify-center md:justify-start">
-		<a
-			aria-label="To City of Hithair website"
-			href="https://cityofhithair.netlify.app/"
-			target="_blank">Play</a
-		>
-
-		<span class="w-6 border-b-2 border-gray-700" />
-
-		<a
-			aria-label="To github repository"
-			href="https://github.com/Rodrj1/turnbased-minigame"
-			target="_blank">Github</a
-		>
-	</div>
-
-	<div class="grid grid-cols-4 grid-rows-2 md:grid-cols-6 md:grid-rows-2 items-start gap-3">
-		<article
-			class="shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-lg col-start-1 col-end-5 md:col-start-1 md:col-end-3 w-full text-gray-400 p-2 relative mb-28 xl:mb-0 row-start-1 row-end-2"
-		>
-			<div class="flex justify-between">
-				<h2>Overview</h2>
-				<div class="flex gap-2 items-center pr-2">
-					<div class="h-[10px] w-[10px] bg-orange-400 rounded-full" />
-					<div class="h-[10px] w-[10px] bg-green-400 rounded-full" />
-					<div class="h-[10px] w-[10px] bg-red-500 rounded-full" />
-				</div>
-			</div>
-
-			<p class="text-sm mb-4">
-				Hithair has turned to turmoil when a wanderer broke through the cemetery and down the
-				mausoleum. After his incursion beneath, sounds, screeches, and voices echoed underground.
-				Find the secret below the earth.
-			</p>
-
-			<ul class="project-list text-sm gap-3 flex flex-col">
-				<li>Two eligible heroes: Knight and Dark Wizard.</li>
-				<li>1v1 turn-based game.</li>
-				<li>Five levels.</li>
-			</ul>
-
-			<div class="h-[50px] w-[135px]">
-				<figure
-					class="h-[160px] w-[160px] md:h-[205px] md:w-[175px] absolute right-1 md:-translate-y-12 md:translate-x-28"
-				>
-					<img
-						class="h-full w-full object-cover rounded-full p-2 border border-zinc-800"
-						src={nicolai}
-						alt="Hero Nicolai."
-					/>
-				</figure>
-			</div>
-		</article>
-
-		<figure
-			class="hidden sm:block sm:h-[135px] sm:w-[135px] col-start-1 col-end-2 md:col-start-3 md:col-end-4 md:row-start-1 md:row-end-2"
-		>
-			<img
-				class="h-full w-full rounded-full p-2 border border-zinc-800"
-				src={magehero}
-				alt="Dark Mage Hero."
-			/>
-		</figure>
-
-		<figure
-			class="hidden sm:block sm:h-[135px] sm:w-[135px] col-start-2 col-end-3 md:col-start-4 md:col-end-5 md:row-start-1 md:row-end-2"
-		>
-			<img
-				class="h-full w-full rounded-full p-2 border border-zinc-800"
-				src={knighthero}
-				alt="Knight Hero."
-			/>
-		</figure>
-
-		<figure
-			class="hidden sm:block sm:h-[135px] sm:w-[135px] col-start-3 col-end-4 md:col-start-5 md:col-end-6 md:row-start-1 md:row-end-2"
-		>
-			<img
-				class="h-full w-full rounded-full p-2 border border-zinc-800"
-				src={knight}
-				alt="NPC Knight."
-			/>
-		</figure>
-
-		<figure
-			class="hidden sm:block sm:h-[135px] sm:w-[135px] col-start-4 col-end-5 md:col-start-6 md:col-end-7 md:row-start-1 md:row-end-2"
-		>
-			<img
-				class="h-full w-full rounded-full p-2 border border-zinc-800"
-				src={marion}
-				alt="NPC Marion."
-			/>
-		</figure>
-
-		<figure
-			class="p-1 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-lg col-start-1 col-end-5 md:col-start-1 md:col-end-4 md:row-start-2 md:row-end-3 h-auto md:h-[400px] w-full border border-zinc-800"
-		>
+	<article class="flex flex-col flex-1 gap-5">
+		<picture class="h-auto w-full">
 			<img
 				class="w-full h-full object-cover object-top"
 				loading="lazy"
-				src={cemetery}
+				src={cityhithair}
 				alt="Cemetery level."
 			/>
-		</figure>
+		</picture>
 
-		<figure
-			class="p-1 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-lg col-start-1 col-end-5 md:col-start-4 md:col-end-7 md:row-start-2 md:row-end-3 h-auto md:h-[400px] w-full border border-zinc-800"
+		<h2
+			class="h-auto text-xl sm:text-2xl text-center sm:text-left text-slate-200 tracking-[10px] border-b pb-5"
 		>
+			City of Hithair
+		</h2>
+
+		<div class="flex justify-between z-50">
+			<h2 class="text-slate-300 text-lg">Overview</h2>
+			<div class="flex gap-2 items-center pr-2">
+				<div class="h-[10px] w-[10px] bg-orange-400 rounded-full" />
+				<div class="h-[10px] w-[10px] bg-green-400 rounded-full" />
+				<div class="h-[10px] w-[10px] bg-red-500 rounded-full" />
+			</div>
+		</div>
+
+		<p class="text-sm mb-4 z-50">
+			Hithair has turned to turmoil when a wanderer broke through the cemetery and down the
+			mausoleum. After his incursion beneath, sounds, screeches, and voices echoed underground. Find
+			the secret below the earth.
+		</p>
+
+		<ul class="project-list text-sm gap-3 flex flex-col z-50">
+			<li>Two eligible heroes: Knight and Dark Wizard.</li>
+			<li>1v1 turn-based game.</li>
+			<li>Five levels.</li>
+		</ul>
+	</article>
+
+	<div class="flex-1 flex flex-col-reverse base:flex-col gap-3 justify-between">
+		<div class="flex gap-3 flex-1">
+			<picture class="flex-1">
+				<img
+					class="w-full h-[100px] rounded-full p-2 border border-zinc-800 object-cover"
+					src={magehero}
+					alt="Dark Mage Hero."
+				/>
+			</picture>
+
+			<picture class="flex-1">
+				<img
+					class="w-full h-[100px] rounded-full p-2 border border-zinc-800 object-cover"
+					src={knighthero}
+					alt="Knight Hero."
+				/>
+			</picture>
+
+			<picture class="flex-1">
+				<img
+					class="w-full h-[100px] rounded-full p-2 border border-zinc-800 object-cover"
+					src={knight}
+					alt="NPC Knight."
+				/>
+			</picture>
+
+			<picture class="flex-1">
+				<img
+					class="w-full h-[100px] rounded-full p-2 border border-zinc-800 object-cover"
+					src={marion}
+					alt="NPC Marion."
+				/>
+			</picture>
+
+			<picture class="absolute top-[25%] right-[22%] lg:top-[15%] lg:right-[12%] z-10 opacity-50 base:opacity-100">
+				<img
+					class="w-full h-[25vh] base:h-[200px] rounded-full p-2 sm:border sm:border-zinc-800"
+					src={nicolai}
+					alt="NPC Marion."
+				/>
+			</picture>
+		</div>
+
+		<picture class="base:self-center z-20">
 			<img
-				class="w-full h-full object-cover object-top"
+				class="object-cover base:max-h-[200px]"
+				src={cemetery}
+				loading="lazy"
+				alt="Preview of Cemetery level in City of Hithair."
+			/>
+		</picture>
+
+		<picture class="base:self-end">
+			<img
+				class="object-cover base:max-h-[200px]"
 				loading="lazy"
 				src={battlecity}
 				alt="City of Hithair battle preview."
 			/>
-		</figure>
+		</picture>
+
+		<ul class="project-techs justify-center md:justify-start items-center list-none p-0">
+			<li class="tech">React</li>
+			<li class="tech">Typescript</li>
+			<li class="tech">Zustand</li>
+			<li class="tech">SASS</li>
+		</ul>
+
+		<div class="flex gap-2 items-center justify-center md:justify-start">
+			<a
+				aria-label="To City of Hithair website"
+				href="https://cityofhithair.netlify.app/"
+				target="_blank">Play</a
+			>
+
+			<span class="w-6 border-b-2 border-gray-700" />
+
+			<a
+				aria-label="To github repository"
+				href="https://github.com/Rodrj1/turnbased-minigame"
+				target="_blank">Github</a
+			>
+		</div>
 	</div>
 </section>

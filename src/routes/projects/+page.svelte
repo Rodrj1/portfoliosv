@@ -1,22 +1,20 @@
 <script>
-	import searcher from '$lib/images/searcher.webp';
-	import anylthin from '$lib/images/anylthin.webp';
-	import arcfiction from '$lib/images/arcfiction.webp';
-	import cemetery from '$lib/images/cemetery.webp';
-
 	import { onMount } from 'svelte';
 	import { cognitiveDissabilityMode } from '../../store';
 	import { addBordersForCognitive } from '../components/AccessibilityMenu/cognitiveDissabilityMode';
+	import { projectsPreview } from '$lib/projectData/projectsPreview';
+	import ProjectPreview from '../components/ProjectPreview.svelte';
 
 	onMount(() => {
 		if ($cognitiveDissabilityMode === true) addBordersForCognitive($cognitiveDissabilityMode);
 	});
 </script>
 
-<section class="w-full will-animate duration-500 mb-40 xl:mb-20">
-	<div class="flex flex-wrap gap-1 w-[80%] m-auto items-start justify-center lg:justify-between">
-		<div class="w-full flex flex-col gap-3">
-			<h2 class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left text-violet-500">
+<section class="w-full mb-40 xl:mb-20">
+	<div class="flex flex-col w-[95%] px-5 m-auto gap-5 border-l border-l-slate-200 projectAnim">
+
+		<div class="w-full flex flex-col gap-3 mb-5">
+			<h2 class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left text-slate-200">
 				Explore
 			</h2>
 
@@ -28,64 +26,12 @@
 			>
 		</div>
 
-		<picture
-			class="w-[450px] h-[330px] lg:w-full lg:h-[380px] xl:w-[450px] xl:h-[330px] border border-gray-800 rounded-md overflow-hidden transition-colors hover:border-red-500 hover:motion-safe:animate-pulse"
-		>
-			<a href="https://basicagencymock.netlify.app/" target="_blank">
-				<img
-					class="w-full h-full object-cover hover:scale-110 transition-transform cursor-pointer grayscale-[4] hover:grayscale-0"
-					src="https://cdn.sanity.io/images/8nn8fua5/production/0e11b9e81dbff0e91cdf326ac726a1b28233636f-870x582.jpg?w=720&fm=webp&q=65"
-					alt="The Webby Awards Logo"
-				/>
-			</a>
-		</picture>
-
-		<picture
-			class="w-[450px] h-[330px] lg:w-full lg:h-[380px] xl:w-[450px] xl:h-[330px] border border-gray-800 rounded-md p-2 overflow-hidden transition-colors hover:border-red-500 hover:motion-safe:animate-pulse"
-		>
-			<a href="/projects/anylthin">
-				<img
-					class="w-full h-full object-cover hover:scale-110 transition-transform cursor-pointer grayscale-[0.5] hover:grayscale-0"
-					src={anylthin}
-					alt="An Ylthin"
-				/>
-			</a>
-		</picture>
-
-		<picture
-			class="w-[450px] h-[330px] lg:w-full lg:h-[380px] xl:w-[450px] xl:h-[330px] border border-gray-800 rounded-md p-2 overflow-hidden transition-colors hover:border-red-500 hover:motion-safe:animate-pulse"
-		>
-			<a href="/projects/arcfiction">
-				<img
-					class="w-full h-full object-cover hover:scale-110 transition-transform cursor-pointer grayscale-[0.5] hover:grayscale-0"
-					src={arcfiction}
-					alt="ARCFiction"
-				/>
-			</a>
-		</picture>
-
-		<picture
-			class="w-[450px] h-[330px] lg:w-full lg:h-[380px] xl:w-[450px] xl:h-[330px] border border-gray-800 rounded-md p-2 overflow-hidden transition-colors hover:border-red-500 hover:motion-safe:animate-pulse"
-		>
-			<a href="/projects/cityofhithair">
-				<img
-					class="w-full h-full object-cover hover:scale-110 transition-transform cursor-pointer grayscale-[0.5] hover:grayscale-0"
-					src={cemetery}
-					alt="Cemetery City of Hithair"
-				/>
-			</a>
-		</picture>
-
-		<picture
-			class="w-[450px] h-[330px] lg:w-full lg:h-[380px] xl:w-[450px] xl:h-[330px] border border-gray-800 rounded-md p-2 overflow-hidden transition-colors hover:border-red-500 hover:motion-safe:animate-pulse"
-		>
-			<a href="/projects/googleclone">
-				<img
-					class="w-full h-full object-cover hover:scale-110 transition-transform cursor-pointer grayscale-[0.5] hover:grayscale-0"
-					src={searcher}
-					alt="Google Clone"
-				/></a
-			>
-		</picture>
+		<ul class="p-0 flex flex-col gap-5 list-none">
+			{#each projectsPreview as projectPreview, index(index)}
+				<li class="flex-1">
+					<ProjectPreview {projectPreview} {index}/>
+				</li>
+			{/each}
+		</ul>
 	</div>
 </section>

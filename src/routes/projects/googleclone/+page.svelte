@@ -4,73 +4,27 @@
 	import searchres from '$lib/images/searchres.webp';
 </script>
 
-<section
-	id="projects"
-	class="pb-10 mb-40 md:mb-20 flex flex-col gap-5 m-auto will-animate min-h-[100vh] w-[80%] justify-center"
->
-	<h2
-		class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center sm:text-left text-violet-500"
-	>
-		04. Google Clone
-	</h2>
-
-	<div class="project-techs justify-center md:justify-start items-center">
-		<span class="tech">NextJS</span>
-		<span class="w-6 border-b-2 border-gray-700" />
-		<span class="tech">Typescript</span>
-		<span class="w-6 border-b-2 border-gray-700" />
-		<span class="tech">TailwindCSS</span>
-	</div>
-
-	<div class="flex gap-2 items-center justify-center md:justify-start">
-		<a
-			aria-label="To Google Clone website"
-			href="https://googleclonecustomscheme.vercel.app/"
-			target="_blank">Website</a
-		>
-		<a
-			aria-label="To github repository"
-			href="https://github.com/Rodrj1/google-clone"
-			target="_blank">Github</a
-		>
-	</div>
-
-	<div class="grid grid-cols-1 md:grid-cols-6 md:grid-rows-2 items-start gap-3">
-		<figure
-			class="p-1 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-lg col-start-1 col-end-2 md:col-start-1 md:col-end-4 md:row-start-1 md:row-end-2 h-[400px] w-full border border-zinc-800 bg-cover"
-		>
+<section class="flex flex-col base:flex-row gap-5 m-auto h-auto w-[90%] md:w-[50%] justify-center projectAnim mb-20 sm:mb-0">
+	<div class="flex flex-col flex-1 gap-5">
+		<picture class="w-full">
 			<img
+				loading="lazy"
 				class="w-full h-full object-cover"
 				src={searcher}
 				alt="Google Clone preview."
 			/>
-		</figure>
+		</picture>
 
-		<figure
-			class="p-1 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-lg col-start-1 col-end-2 md:col-start-4 md:col-end-7 md:row-start-1 md:row-end-2 h-[400px] w-full border border-zinc-800 bg-fixed"
+		<h2
+			class="h-auto text-xl sm:text-2xl text-center sm:text-left text-slate-200 tracking-[10px] border-b pb-5"
 		>
-			<img
-				class="object-cover w-full h-full"
-				src={search}
-				alt="Google Clone search."
-			/>
-		</figure>
+			Google Clone
+		</h2>
 
-		<figure
-			class="p-1 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-lg col-start-1 col-end-2 md:col-start-1 md:col-end-4 md:row-start-2 md:row-end-3 h-[400px] w-full border border-zinc-800"
-		>
-			<img
-				class="w-full h-full object-cover"
-				src={searchres}
-				alt="Google Clone search."
-			/>
-		</figure>
-
-		<article
-			class="shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-lg col-start-1 col-end-2 row-start-1 row-end-2 md:row-start-2 md:row-end-3 md:col-start-4 md:col-end-7 w-full text-gray-400 p-2 relative mb-28 md:mb-0"
-		>
+		<article class="w-full py-2 relative h-auto">
 			<div class="flex justify-between">
-				<h2>Overview</h2>
+				<h2 class="text-slate-300 text-lg">Overview</h2>
+
 				<div class="flex gap-2 items-center pr-2">
 					<div class="h-[10px] w-[10px] bg-orange-400 rounded-full" />
 					<div class="h-[10px] w-[10px] bg-green-400 rounded-full" />
@@ -91,4 +45,35 @@
 			</ul>
 		</article>
 	</div>
+
+	<div class="flex flex-col-reverse base:flex-col flex-1 gap-5">
+		<picture class="h-[150px] w-full">
+			<img class="object-cover w-full h-full" src={search} alt="Google Clone search." />
+		</picture>
+
+		<picture class="h-[150px] w-full">
+			<img class="w-full h-full object-cover" src={searchres} alt="Google Clone search results." />
+		</picture>
+
+		<ul class="project-techs justify-center md:justify-start items-center list-none p-0">
+			<li class="tech">NextJS</li>
+			<li class="tech">Typescript</li>
+			<li class="tech">TailwindCSS</li>
+		</ul>
+	
+		<div class="flex gap-2 items-center justify-center md:justify-start">
+			<a
+				aria-label="To Google Clone website"
+				href="https://googleclonecustomscheme.vercel.app/"
+				target="_blank">Website</a
+			>
+			<a
+				aria-label="To github repository"
+				href="https://github.com/Rodrj1/google-clone"
+				target="_blank">Github</a
+			>
+		</div>
+	
+	</div>
 </section>
+

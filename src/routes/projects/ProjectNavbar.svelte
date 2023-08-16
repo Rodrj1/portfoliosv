@@ -5,7 +5,7 @@
 </script>
 
 <ul
-	class="flex list-none flex-wrap sm:flex-nowrap gap-4 xl:gap-40 w-full sm:w-[80%] m-auto mb-20 p-0 justify-center lg:justify-start absolute top-11 sm:left-[10%]"
+	class="flex list-none flex-wrap sm:flex-nowrap gap-4 xl:gap-40 w-full sm:w-[80%] m-auto mb-20 p-0 justify-center lg:justify-start absolute top-11 sm:left-[3.6%]"
 >
 	<li class={`${path === '/projects/anylthin' && '!border-b !border-sky-500'}`}>
 		<a href="/projects/anylthin" aria-label="Explore An-Ylthin game.">An Ylthin</a>

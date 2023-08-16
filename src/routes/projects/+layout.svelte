@@ -1,20 +1,30 @@
 <script>
-	import ProjectNavbar from './ProjectNavbar.svelte';
+	import { projectIndex } from '../../store';
+	import { page } from '$app/stores';
 </script>
 
 <svelte:head>
 	<title>rodriccrz</title>
-	<meta name="description" content="Section: Here projects are displayed. My portfolio as a front-end developer. Rodrigo Agustin Cisterna Cruz." />
+	<meta
+		name="description"
+		content="Section: Here projects are displayed. My portfolio as a front-end developer. Rodrigo Agustin Cisterna Cruz."
+	/>
 </svelte:head>
 
-<section class={`min-h-screen w-full m-auto mt-36 relative`}>
+<section class="min-h-screen w-full m-auto mt-36 relative">
 	<h1
-		class={`text-2xl sm:text-3xl md:text-4xl lg:text-4xl w-[80%] m-auto text-center lg:text-left text-slate-400 border-b border-b-gray-800 mb-20`}
+		class="hidden md:block text-2xl sm:text-3xl md:text-4xl lg:text-4xl w-[40%] fixed right-[-10%] top-[50%] text-center lg:text-center border-b border-b-slate-200 rotate-90 z-[100000000] text-slate-200"
 	>
 		PROJECTS.md
 	</h1>
 
-	<ProjectNavbar />
+	<h1
+		class={`hidden md:block text-2xl sm:text-3xl md:text-4xl lg:text-4xl w-[20%] fixed  left-[0%] top-[13%] text-right border-b border-b-slate-200 z-[100000000] text-slate-200
+		${$page.url.pathname !== '/projects' ? '!block' : "!hidden"}
+		`}
+	>
+		.0{$projectIndex}
+	</h1>
 
 	<slot />
 </section>
