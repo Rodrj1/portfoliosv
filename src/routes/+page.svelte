@@ -39,11 +39,6 @@
 				<h3 class="text-xl text-slate-300 text-left">Front-end developer</h3>
 			</div>
 
-			<ul class="text-sm text-left w-full">
-				<li>RESPONSIVE SITES</li>
-				<li>ACCESSIBLE SITES</li>
-			</ul>
-
 			<div class="flex gap-2 items-center w-full">
 				<a aria-label="To github profile" href="https://github.com/Rodrj1" target="_blank">
 					Github
