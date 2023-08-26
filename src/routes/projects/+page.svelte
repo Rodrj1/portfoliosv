@@ -11,7 +11,7 @@
 </script>
 
 <section class="w-full mb-40 xl:mb-20">
-	<div class="flex flex-col w-[95%] px-5 m-auto gap-5 border-l border-l-slate-200 projectAnim">
+	<div class="flex flex-col w-[95%] px-5 m-auto gap-5 border-l border-l-slate-200">
 
 		<div class="w-full flex flex-col gap-3 mb-5">
 			<h2 class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left text-slate-200">
