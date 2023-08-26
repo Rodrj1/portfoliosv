@@ -153,6 +153,40 @@ body::-webkit-scrollbar {
 	}
   }
 
+  .filterButton::before {
+	position: absolute;
+	top: 0;
+	left: -35px;
+	border-radius: 50%;
+	width: 1.4rem;
+	height: 1.4rem;
+	content: "";
+	border: 1px solid white;
+}
+
+.filterButton::after{
+	position: absolute;
+	top: 5px;
+	left: -1.80rem;
+	border-radius: 50%;
+	width: 0rem;
+	height: 0rem;
+	content: "";
+	background-color: white;
+	transition: ease-in-out .2s;
+}
+
+.filterButton:hover::after {
+	width: .7rem;
+	height: .7rem;
+}
+
+.filterButton:focus::after {
+	width: 1.4rem;
+	height: 1.4rem;
+	top: 0rem;
+	left: -2.15rem;
+}
 
 
 
