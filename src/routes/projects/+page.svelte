@@ -38,7 +38,7 @@
 				class="flex w-[100%] m-auto gap-14 text-sm font-sans font-medium text-slate-200 spacing overflow-y-hidden overflow-x-scroll sm:overflow-hidden sm:justify-start list-none pl-9 pb-3"
 			>
 				<li>
-					<button on:click={() => filterBy('')} class="filterButton relative"> VIEW ALL </button>
+					<button on:click={() => filterBy('')} class="filterButton relative">VIEW ALL</button>
 				</li>
 				<li>
 					<button on:click={() => filterBy('Design')} class="filterButton relative">DESIGNS</button>

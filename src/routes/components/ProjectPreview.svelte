@@ -5,6 +5,7 @@
 		image: string;
 		imageAlt: string;
 		link: string;
+		type: string;
 	};
 
 	export let projectPreview: ProjectPreview;
@@ -19,7 +20,7 @@
 	<article
 		class="w-full sm:w-[90%] border-t border-slate-200 overflow-hidden transition-colors hover:motion-safe:animate-pulse py-8 max-h-[50vh] rounded-none"
 	>
-		<a class="flex flex-col sm:flex-row gap-10 sm:gap-0 justify-between group" 		on:click={updateProjectIndex} href={projectPreview.link}>
+		<a class="flex flex-col sm:flex-row gap-10 sm:gap-0 justify-between group" 	target={projectPreview.type === "Design" ? "_blank" : ""}	on:click={updateProjectIndex} href={projectPreview.link}>
 			<h3
 				class="text-slate-300 group-hover:text-blue-700 text-2xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl tracking-[10px] flex-1 flex"
 			>
