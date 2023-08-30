@@ -2,7 +2,7 @@ import searcher from '$lib/images/searcher.webp';
 import anylthin from '$lib/images/anylthinbattle.webp';
 import arcfiction from '$lib/images/arcfiction.webp';
 import cemetery from '$lib/images/cemetery.webp';
-import dualipa from '$lib/images/dua.webp';
+import dualipa from '$lib/images/newdua.webp';
 
 export const projectsPreview = [
 	{
