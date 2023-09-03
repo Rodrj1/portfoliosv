@@ -17,10 +17,29 @@
 			const filteredItems = projectsPreview.filter((news) => news.type === type);
 			displayProjects = filteredItems;
 		}
+
+		scrollEnd = document.body.scrollHeight - 963;
+		windowHe = window.scrollY;
+	};
+
+	let scrollEnd = document.body.scrollHeight - 963;
+
+	let windowHe = window.scrollY;
+
+	$: document.onwheel = () => {
+		windowHe = window.scrollY;
+		scrollEnd = document.body.scrollHeight - 963;
 	};
 </script>
 
 <section class="w-full mb-40 xl:mb-20">
+	<div class="fixed right-10 w-[7px] rounded-md bg-white h-[200px]">
+		<div
+			style={`height: ${(windowHe / scrollEnd) * 100}%`}
+			class="absolute bg-zinc-700 z-10 w-[7px] rounded-md max-h-[200px] transition-all before:content-[''] before:absolute before:-bottom-1 before:h-[12px] before:bg-slate-300 before:z-[20] before:w-[12px] before:rounded-full before:-right-[0.20rem]"
+		/>
+	</div>
+
 	<div class="flex flex-col w-[95%] px-5 m-auto gap-5 border-l border-l-slate-200">
 		<div class="w-full flex flex-col gap-3 mb-5">
 			<h2 class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left text-slate-200">
