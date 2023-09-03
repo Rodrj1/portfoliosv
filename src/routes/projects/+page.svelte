@@ -7,12 +7,20 @@
 
 	let scrollEnd = 0;
 	let windowHe = 0;
+	
 	onMount(() => {
 		if ($cognitiveDissabilityMode === true) addBordersForCognitive($cognitiveDissabilityMode);
 
-		scrollEnd = document.body.scrollHeight - 963;
+		if (document) {
+			document.addEventListener('wheel', () => {
+				windowHe = window.scrollY;
+				scrollEnd = document.body.scrollHeight - 963;
+			});
 
-		windowHe = window.scrollY;
+			scrollEnd = document.body.scrollHeight - 963;
+
+			windowHe = window.scrollY;
+		}
 	});
 
 	let displayProjects = projectsPreview;
@@ -26,11 +34,6 @@
 
 		scrollEnd = document.body.scrollHeight - 963;
 		windowHe = window.scrollY;
-	};
-
-	$: document.onwheel = () => {
-		windowHe = window.scrollY;
-		scrollEnd = document.body.scrollHeight - 963;
 	};
 </script>
 
