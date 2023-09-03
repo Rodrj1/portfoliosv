@@ -5,8 +5,14 @@
 	import { projectsPreview } from '$lib/projectData/projectsPreview';
 	import ProjectPreview from '../components/ProjectPreview.svelte';
 
+	let scrollEnd = 0;
+	let windowHe = 0;
 	onMount(() => {
 		if ($cognitiveDissabilityMode === true) addBordersForCognitive($cognitiveDissabilityMode);
+
+		scrollEnd = document.body.scrollHeight - 963;
+
+		windowHe = window.scrollY;
 	});
 
 	let displayProjects = projectsPreview;
@@ -21,10 +27,6 @@
 		scrollEnd = document.body.scrollHeight - 963;
 		windowHe = window.scrollY;
 	};
-
-	let scrollEnd = document.body.scrollHeight - 963;
-
-	let windowHe = window.scrollY;
 
 	$: document.onwheel = () => {
 		windowHe = window.scrollY;
