@@ -188,6 +188,15 @@ body::-webkit-scrollbar {
 	left: -2.15rem;
 }
 
+@media (prefers-reduced-motion) {
+	.animTitle::before {
+		animation: rotate 0s linear forwards;
+	  }
+	 .projectAnim {
+		animation: display 0s linear
+	  }
+}
+
 
 
 
