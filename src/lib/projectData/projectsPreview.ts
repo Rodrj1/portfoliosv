@@ -3,6 +3,7 @@ import anylthin from '$lib/images/anylthinbattle.webp';
 import arcfiction from '$lib/images/arcfiction.webp';
 import cemetery from '$lib/images/cemetery.webp';
 import dualipa from '$lib/images/newdua.webp';
+import usingjikan from '$lib/images/usingjikan.png';
 
 export const projectsPreview = [
 	{
@@ -18,6 +19,13 @@ export const projectsPreview = [
 		image: dualipa,
 		imageAlt: 'Dua Lipa Concept two albums.',
 		link: 'https://dualipaconcept.netlify.app/',
+		type: 'Design'
+	},
+	{
+		name: 'Using Jikan',
+		image: usingjikan,
+		imageAlt: 'Usingjikan Logo.',
+		link: 'https://usingjikan.netlify.app/',
 		type: 'Design'
 	},
 	{
