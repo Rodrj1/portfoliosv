@@ -22,7 +22,7 @@ export const projectsPreview = [
 		type: 'Design'
 	},
 	{
-		name: 'Using Jikan',
+		name: 'Usingjikan',
 		image: usingjikan,
 		imageAlt: 'Usingjikan Logo.',
 		link: 'https://usingjikan.netlify.app/',
