@@ -38,7 +38,7 @@
 </script>
 
 <section class="w-full mb-40 xl:mb-20">
-	<div class="fixed right-10 w-[7px] rounded-md bg-white h-[200px]">
+	<div class="hidden md:block fixed right-10 w-[7px] rounded-md bg-white h-[200px]">
 		<div
 			style={`height: ${(windowHe / scrollEnd) * 100}%`}
 			class="absolute bg-zinc-700 z-10 w-[7px] rounded-md max-h-[200px] transition-all before:content-[''] before:absolute before:-bottom-1 before:h-[12px] before:bg-slate-300 before:z-[20] before:w-[12px] before:rounded-full before:-right-[0.20rem]"
