@@ -16,16 +16,10 @@
 	/>
 </svelte:head>
 
-<section class="w-full projectAnim">
+<section class="w-full md:projectAnim">
 	<div class="w-[95%] m-auto mt-36 px-5 border-l border-slate-200 flex">
-		<!-- <h1
-			class="mb-20 text-2xl sm:text-3xl md:text-4xl lg:text-4xl w-full text-center lg:text-left  border-b border-b-gray-500"
-		>
-			HOME.md
-		</h1>-->
-
 		<h1
-			class="mb-20 text-2xl sm:text-3xl md:text-4xl lg:text-4xl w-[40%] absolute right-[-10%] top-[50%] text-center lg:text-center border-b border-b-slate-200 rotate-90 text-slate-200"
+			class="hidden md:block mb-20 text-2xl sm:text-3xl md:text-4xl lg:text-4xl w-[40%] absolute right-[-10%] top-[50%] text-center lg:text-center border-b border-b-slate-200 rotate-90 text-slate-200"
 		>
 			HOME.md
 		</h1>

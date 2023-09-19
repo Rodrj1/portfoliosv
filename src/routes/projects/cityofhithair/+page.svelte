@@ -10,7 +10,7 @@
 </script>
 
 <section
-	class="flex flex-col base:flex-row gap-5 m-auto h-auto lg:h-[70vh] w-[90%] md:w-[50%] justify-center projectAnim mb-48 sm:mb-20 relative"
+	class="flex flex-col base:flex-row gap-5 m-auto h-auto lg:h-[70vh] w-[90%] md:w-[50%] justify-center md:projectAnim mb-48 sm:mb-20 relative"
 >
 	<article class="flex flex-col flex-1 gap-5">
 		<picture class="h-auto w-full">
