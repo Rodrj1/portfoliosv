@@ -24,7 +24,7 @@
 			ABOUT.md
 		</h1>
 
-		<div class="flex flex-col gap-10 items-center w-max sm:w-[40%] m-auto">
+		<div class="flex flex-col gap-10 items-center w-full sm:w-[40%] m-auto">
 			<h2
 				class="h-auto text-xl sm:text-2xl md:text-3xl lg:text-4xl w-full text-left text-slate-200"
 			>
