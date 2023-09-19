@@ -38,6 +38,7 @@
 			</div>
 
 			<p class="text-sm mb-4">
+				Meant to be played in desktop.
 				The forest of An-Ylthin has been usurped by a powerful foreign necromancer. The dryexa had
 				called for help to their loathsome ally Nicolai, but are more eager to receive the help of
 				the dryeldar warlock Elisith.

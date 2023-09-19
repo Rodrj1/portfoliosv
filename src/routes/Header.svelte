@@ -15,7 +15,7 @@
 >
 	<nav>
 		<ul
-			class="flex sm:flex-row justify-between sm:justify-end py-2 gap-1 sm:gap-4 xl:gap-16 list-none h-auto border-t border-gray-500 sm:border-transparent p-0 lg:min-h-[50px]  w-[95%] m-auto font-sans"
+			class="flex sm:flex-row justify-evenly sm:justify-end py-2 gap-1 sm:gap-4 xl:gap-16 list-none h-auto border-t border-gray-500 sm:border-transparent p-0 lg:min-h-[50px]  w-[95%] m-auto font-sans"
 		>
 			<li class="sm:w-full justify-self-start">
 				<button aria-label="Open Accessibility Menu" on:click={handleAccessibilityMenu}>

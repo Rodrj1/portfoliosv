@@ -38,7 +38,7 @@
 		</div>
 
 		<p class="text-sm mb-4 z-50">
-			Hithair has turned to turmoil when a wanderer broke through the cemetery and down the
+			Meant to be played in desktop. Hithair has turned to turmoil when a wanderer broke through the cemetery and down the
 			mausoleum. After his incursion beneath, sounds, screeches, and voices echoed underground. Find
 			the secret below the earth.
 		</p>
