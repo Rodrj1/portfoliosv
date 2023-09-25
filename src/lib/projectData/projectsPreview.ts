@@ -1,4 +1,4 @@
-import searcher from '$lib/images/searcher.webp';
+import googleclone from '$lib/images/googleclone.png';
 import anylthin from '$lib/images/anylthinbattle.webp';
 import arcfiction from '$lib/images/arcfiction.webp';
 import cemetery from '$lib/images/cemetery.webp';
@@ -22,6 +22,13 @@ export const projectsPreview = [
 		type: 'Design'
 	},
 	{
+		name: 'ARCFiction',
+		image: arcfiction,
+		imageAlt: 'Home menu featuring multiple tv shows',
+		link: '/projects/arcfiction',
+		type: 'Website'
+	},
+	{
 		name: 'Usingjikan',
 		image: usingjikan,
 		imageAlt: 'Usingjikan Logo.',
@@ -36,13 +43,6 @@ export const projectsPreview = [
 		type: 'Game'
 	},
 	{
-		name: 'ARCFiction',
-		image: arcfiction,
-		imageAlt: 'Home menu featuring multiple tv shows',
-		link: '/projects/arcfiction',
-		type: 'Website'
-	},
-	{
 		name: 'City of Hithair',
 		image: cemetery,
 		imageAlt: 'Cemetery Level with skeletons from the game: City of Hithair',
@@ -50,8 +50,8 @@ export const projectsPreview = [
 		type: 'Game'
 	},
 	{
-		name: 'Google Custom Design',
-		image: searcher,
+		name: 'Google Clone',
+		image: googleclone,
 		imageAlt: 'Google Searcher',
 		link: '/projects/googleclone',
 		type: 'Website'

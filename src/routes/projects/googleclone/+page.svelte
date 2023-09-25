@@ -1,7 +1,7 @@
 <script>
-	import searcher from '$lib/images/searcher.webp';
-	import search from '$lib/images/search.webp';
-	import searchres from '$lib/images/searchres.webp';
+	import googleclone from '$lib/images/googleclone.png';
+	import googleclonearticles from '$lib/images/googleclonearticles.webp';
+	import googlecloneimages from '$lib/images/googlecloneimages.webp';
 </script>
 
 <section class="flex flex-col base:flex-row gap-5 m-auto h-auto w-[90%] md:w-[50%] justify-center projectAnim mb-20 sm:mb-0">
@@ -10,7 +10,7 @@
 			<img
 				loading="lazy"
 				class="w-full h-full object-cover"
-				src={searcher}
+				src={googleclone}
 				alt="Google Clone preview."
 			/>
 		</picture>
@@ -33,7 +33,7 @@
 			</div>
 
 			<p class="text-sm mb-4">
-				A custom and minimal Google using Programmable Search Engine from Google APIs.
+				Attempt at recreating a Google clone using Programmable Search Engine from Google APIs.
 			</p>
 
 			<ul class="project-list text-sm gap-3 flex flex-col">
@@ -41,18 +41,18 @@
 				<li>Can make a random search.</li>
 				<li>Displays location using extreme-ip-lookup.</li>
 				<li>Google Apps available at top right corner.</li>
-				<li>Can lookup for both sites and images.</li>
+				<li>Can lookup for both articles and images.</li>
 			</ul>
 		</article>
 	</div>
 
 	<div class="flex flex-col-reverse base:flex-col flex-1 gap-5">
-		<picture class="h-[150px] w-full">
-			<img class="object-cover w-full h-full" src={search} alt="Google Clone search." />
+		<picture class="h-[200px] w-full">
+			<img class="object-cover w-full h-full" src={googleclonearticles} alt="Google Clone search." />
 		</picture>
 
 		<picture class="h-[150px] w-full">
-			<img class="w-full h-full object-cover" src={searchres} alt="Google Clone search results." />
+			<img class="w-full h-full object-cover" src={googlecloneimages} alt="Google Clone search results." />
 		</picture>
 
 		<ul class="project-techs justify-center md:justify-start items-center list-none p-0">

@@ -38,6 +38,8 @@
 </script>
 
 <section class="w-full mb-40 xl:mb-20">
+
+	<!--This is the slider that shows the progress in the scroll-->
 	<div class="hidden md:block fixed right-10 w-[7px] rounded-md bg-white h-[200px]">
 		<div
 			style={`height: ${(windowHe / scrollEnd) * 100}%`}
