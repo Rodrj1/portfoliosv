@@ -52,7 +52,7 @@
 
 			<div class="h-[50px] w-[135px]">
 				<picture
-					class="h-[160px] w-[160px] lg:h-[205px] lg:w-[175px] absolute right-1 xl:-translate-y-16"
+					class="h-[160px] w-[160px] lg:h-[205px] lg:w-[175px] absolute right-1 xl:-translate-y-0 2xl:-translate-y-4"
 				>
 					<img
 						class="object-cover h-full w-full rounded-full p-2 border border-zinc-800"
