@@ -11,7 +11,7 @@
 	/>
 </svelte:head>
 
-<section class="min-h-screen w-full m-auto mt-36 relative">
+<section class="min-h-screen w-full m-auto mt-36 relative sm:mb-40 xl:mb-20">
 	<h1
 		class="hidden md:block text-2xl sm:text-3xl md:text-4xl lg:text-4xl w-[40%] fixed right-[-10%] top-[50%] text-center lg:text-center border-b border-b-slate-200 rotate-90 z-[100000000] text-slate-200"
 	>
