@@ -6,7 +6,7 @@
 </script>
 
 <section
-	class="flex flex-col base:flex-row gap-5 m-auto h-auto w-[90%] md:w-[50%] justify-center md:projectAnim mb-20 lg:mb-0"
+	class="flex flex-col base:flex-row gap-5 m-auto h-auto w-[90%] md:w-[50%] justify-center md:projectAnim mb-20 xl:mb-0"
 >
 	<div class="flex flex-col flex-1 gap-5 relative">
 		<picture
